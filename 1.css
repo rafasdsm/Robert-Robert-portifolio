@@ -1,0 +1,101 @@
+*{
+    box-sizing: content-box;
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: url('https://assets.entrepreneur.com/content/3x2/2000/20180730045238-shutterstock-630500720.jpeg?format=pjeg&auto=webp&crop=16:9');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment:fixed ;
+}
+#container{
+    background: rgba(112, 112, 112, 0.28);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.5px);
+    -webkit-backdrop-filter: blur(7.5px);
+    border: 1px solid rgba(112, 112, 112, 0.24);
+    height: 35em;
+    width: 80em;
+    margin: auto auto auto auto;
+    margin-top: 15vh;
+    display: flex;
+    flex-direction: row;
+}
+#personal-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+}
+#personal-card p,h1{
+    color:white;
+    margin-top: 2vh;
+}
+#personal-card img{
+    width: 30%;
+    border-radius: 50vh;
+}
+
+.contact-card{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.contact-card a{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    border:2px solid black;
+    background: rgba(255, 255, 255, 0.69);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.5px);
+    -webkit-backdrop-filter: blur(7.5px);
+    border: 1px solid rgba(255, 255, 255, 0.23);
+    color:black;
+    text-decoration: none;
+    padding: 3vh;
+    border-radius: 15px;
+    width: 30em;
+    text-align: center;
+    font-size: 20px;
+    transition: 500ms ease;
+}
+#linkedin:hover{
+    background: rgba(14, 118, 168, 1);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.5px);
+    -webkit-backdrop-filter: blur(7.5px);
+    border: 1px solid rgba(14, 118, 168, 0.23);
+    color:white;
+}
+#instagram:hover{
+    background: rgba(193, 53, 132, 1);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.5px);
+    -webkit-backdrop-filter: blur(7.5px);
+    border: 1px solid rgba(193, 53, 132, 0.23);
+    color: white;
+}
+#tiktok:hover, #twitter:hover{
+    background: rgba(0, 0, 0, 1);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.5px);
+    -webkit-backdrop-filter: blur(7.5px);
+    border: 1px solid rgba(0, 0, 0, 0.23);
+    color: white;
+}
+
+
